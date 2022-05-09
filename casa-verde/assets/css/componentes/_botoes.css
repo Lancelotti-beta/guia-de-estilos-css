@@ -1,3 +1,8 @@
+button {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
 .botao {
     background-color: var(--amarelo-opaco-botao);
     color: var(--branco-cards);
@@ -12,9 +17,10 @@
 }
 
 .botao__text {
-    font-family: var(--text-font);
-    align-items: center;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    
+    text-align: center;
 }
