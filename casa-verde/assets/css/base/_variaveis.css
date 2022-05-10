@@ -8,13 +8,20 @@
     --sub-texto: #909090;
     --text-color: #202020;
 
-    /* font Style */
-    --text-font: 'Montserrat', sans-serif;
-    --title-font: 'Elsie Swash Caps', cursive;
+    /* cores de sombreamento */
+    --amarelo-transparente: rgba(255, 203, 71, 0.3);
+    --preto-transparente: #0000000F;
 
-    --p: 16px;
-    --subtitle: 22px;
-    --h3: 32px;
-    --h2: 42px;
-    --h1: 82px;
+    /* font Style */
+    --texto-fonte: 'Montserrat', sans-serif;
+    --titulo-fonte: 'Elsie Swash Caps', cursive;
+
+    --titulo-fonte-peso: 900;
+    --bota-peso: 700;
+    --video-peso: 400;
+
+    --tamanho-texto: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
+
 }

@@ -1,0 +1,22 @@
+
+.icon__background {
+    width: 52px;
+    height: 52px;
+    
+    border-radius: 50%;
+    
+    background: var(--amarelo-opaco-botao);
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon__background--alternativo {
+    background-color: var(--amarelo-opaco-botao);
+}
+
+.icon--truck{
+    background-image: url(../../icon/truck.svg);
+}

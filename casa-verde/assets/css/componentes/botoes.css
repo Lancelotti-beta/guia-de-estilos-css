@@ -13,14 +13,21 @@ button {
     width: 100%;
     border: none;
 
-    box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
-}
+    box-shadow: 10px 10px 30px var(--amarelo-transparente);
 
-.botao__text {
     font-family: inherit;
-    font-weight: 700;
+    font-weight: var(--botao-peso);
     font-size: 16px;
     line-height: 20px;
     
     text-align: center;
+}
+
+.botao--alternativo {
+    color: var(--amarelo-opaco-botao);
+    border: 1px solid var(--amarelo-opaco-botao);
+
+    box-shadow: none;
+
+    background-color: unset;
 }
