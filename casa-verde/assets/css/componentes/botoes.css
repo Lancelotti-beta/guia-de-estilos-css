@@ -31,3 +31,28 @@ button {
 
     background-color: unset;
 }
+
+.botao__produto {
+    background-color: unset;
+    color: var(--amarelo-opaco-botao);
+
+    text-align: start;
+
+    box-shadow: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.botao__produto--icon {
+    display: inline-block;
+
+    width: 0.875rem;
+    height: 0.875rem;
+
+    margin-left: 1.75rem;
+
+    background-image: url(../../icon/seta.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -8,20 +8,22 @@
 
     <link rel="stylesheet" href="assets/css/base/style.css">
 
-    <link rel="stylesheet" href="assets/css/componentes/logo.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="assets/css/componentes/icone.css">
     <link rel="stylesheet" href="assets/css/componentes/botoes.css">
     <link rel="stylesheet" href="assets/css/componentes/input.css">
     <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/css/componentes/produto.css">
 
     <title> Home | Casa Verde</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/icon/logo.svg" alt="logo Casa Verde" class="logo">
-        <img src="assets/icon/carrinho.svg" alt="carrinho de compra" class="cart">
-
+        <img src="assets/icon/logo.svg" alt="logo Casa Verde" class="logo logo__margin">
+        <a href="#">
+            <img src="assets/icon/carrinho.svg" alt="carrinho de compra" class="logo__margin">
+        </a>
     </header>
 
     <main class="container">
@@ -43,42 +45,78 @@
                 <span class="titulo--destaque">minha planta</span>
             </h2>
 
-            <p class="texto alinhamento-esquerda">Escolha suas plantas</p>
-            <p class="texto alinhamento-esquerda">Faça seu pedido</p>
-            <p class="texto alinhamento-esquerda">Aguarde na sua casa</p>
+            <ul class="lista__item">
+                <li class="item">
+                    <span class="item__icon item__icon--cursor"></span>
+                    <p>Escolha suas plantas</p>
+                </li>
+                <li class="item">
+                    <span class="item__icon item__icon--cart"></span>
+                    <p>Faça seu pedido</p>
+                </li>
+                <li class="item">
+                    <span class="item__icon item__icon--truck"></span>
+                    <p>Aguarde na sua casa</p>
+                </li>
+            </ul>
+
         </article>
         <section>
             <h2 class="titulo alinhamento-centro">Conheça nossos
                 <span class="titulo--destaque">produtos</span>
             </h2>
-            <article class="card">
-                <h2 class="titulo--destaque">Ajuga reptans</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-01.png" alt="Imagem da planta Ajuga reptans" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h2 class="titulo--destaque produto__titulo">Ajuga reptans</h2>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
-            <article class="card">
-                <h2 class="titulo--destaque">Cordyline fruticosa</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-02.png" alt="Imagem da planta " class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="titulo--destaque produto__titulo">Cordyline fruticosa</h3>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a href="#" class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
-            <article class="card">
-                <h2 class="titulo--destaque">Crassula ovata</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-03.png" alt="Imagem da planta " class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="titulo--destaque produto__titulo">Crassula ovata</h3>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a href="#" class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
-            <article class="card">
-                <h2 class="titulo--destaque">Cyperus rotundus</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-04.png" alt="Imagem da planta " class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="titulo--destaque produto__titulo">Cyperus rotundus</h3>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a href="#" class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
-            <article class="card">
-                <h2 class="titulo--destaque">Delairea odorata</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-05.png" alt="Imagem da planta " class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="titulo--destaque produto__titulo">Delairea odorata</h3>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a href="#" class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
-            <article class="card">
-                <h2 class="titulo--destaque">Datura metel</h2>
-                <p class="texto">R$ 20,00</p>
+            <article class="card card__produto">
+                <img src="assets/img/produto-06.png" alt="Imagem da planta " class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="titulo--destaque produto__titulo">Datura metel</h3>
+                    <p class="texto produto__preco">R$ 20,00</p>
+                    <a href="#" class="botao botao__produto">Comprar<span class="botao__produto--icon"></span></a>
+                </div>
 
             </article>
 

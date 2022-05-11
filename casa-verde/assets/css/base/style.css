@@ -4,6 +4,7 @@
 
 body{
     font-family: var(--texto-fonte);
+    font-size: var(--tamanho-texto);
     color: var(--sub-texto);
 
 
