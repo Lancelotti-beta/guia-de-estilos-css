@@ -47,6 +47,6 @@ body{
 }
 
 .titulo--video {
-    font-weight: var(--video-peso);
+    font-weight: var(--peso-baixo);
     color: var(--text-color);
 }
