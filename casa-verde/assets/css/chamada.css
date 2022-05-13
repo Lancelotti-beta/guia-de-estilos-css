@@ -1,0 +1,29 @@
+.conteudo__inicial {
+    padding-top: 2.5rem;
+
+    margin-bottom: 2.5rem;
+
+    background-image: url(../../assets/icon/header-ector.svg);
+    background-position: top -5rem right;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.conteudo__inicial-texto {
+    width: 12.5rem;
+
+    margin-bottom: 1.55rem;
+}
+
+.conteudo__inicial-imagem {
+    position: absolute;
+    top: 3.25rem;
+    right: 0;
+}
+
+.conteudo__inicial-formulario {
+    position: relative;
+
+    z-index: 2;
+}

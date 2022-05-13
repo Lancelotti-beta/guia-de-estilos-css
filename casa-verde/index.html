@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="assets/css/base/style.css">
 
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/componentes/icone.css">
     <link rel="stylesheet" href="assets/css/componentes/botoes.css">
     <link rel="stylesheet" href="assets/css/componentes/input.css">
+    <link rel="stylesheet" href="assets/css/chamada.css">
     <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/css/componentes/icone.css">
+    <link rel="stylesheet" href="assets/css/como-conseguir.css">
     <link rel="stylesheet" href="assets/css/componentes/produto.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
 
@@ -30,47 +32,57 @@
         </a>
     </header>
 
-    <main class="container">
+    <main>
         <!-- Sessão Inicial da Página -->
-        <article>
+        <section class="conteudo__inicial container">
             <h2 class="titulo alinhamento-esquerda">Sua casa com as
                 <span class="titulo--destaque">melhores plantas</span>
             </h2>
-            <p class="texto">
-                Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu
+            <p class="conteudo__inicial-texto texto">
+                Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no
+                seu
                 dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca
             </p>
-        
-            <input type="email" class="input input--icon input--email text" placeholder="Insira o seu e-mail" aria-label="Insira o seu e-mail">
-            <button class="botao">Assinar Newsletter</button>
+            <img src="assets/img/imagem-header.png" alt="Imagem do produto" class="conteudo__inicial-imagem">
+
+            <form action="#" class="conteudo__inicial-formulario">
+                <input type="email" class="input input--icon input--email text" placeholder="Insira o seu e-mail"
+                    aria-label="Insira o seu e-mail"
+                />
+                <button class="botao">Assinar Newsletter</button>
+
+            </form>
+
+        </section>
+
+        <!--  Crad de Informação - pedido & envio -->
+        <section class="container">
+            <article class="como-conseguir card">
+                <h2 class="titulo alinhamento-centro">Como conseguir
+                    <span class="titulo--destaque">minha planta</span>
+                </h2>
+    
+                <ul class="lista__item">
+                    <li class="item">
+                        <span class="item__icon item__icon--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icon item__icon--cart"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icon item__icon--truck"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+    
+            </article>
             
-        </article>
-
-        <!--  Crad de Informação da Página -->
-        <article class="card">
-            <h2 class="titulo alinhamento-centro">Como conseguir
-                <span class="titulo--destaque">minha planta</span>
-            </h2>
-
-            <ul class="lista__item">
-                <li class="item">
-                    <span class="item__icon item__icon--cursor"></span>
-                    <p>Escolha suas plantas</p>
-                </li>
-                <li class="item">
-                    <span class="item__icon item__icon--cart"></span>
-                    <p>Faça seu pedido</p>
-                </li>
-                <li class="item">
-                    <span class="item__icon item__icon--truck"></span>
-                    <p>Aguarde na sua casa</p>
-                </li>
-            </ul>
-
-        </article>
+        </section>
 
         <!-- Sessão de produtos -->
-        <section>
+        <section class="container">
             <h2 class="titulo alinhamento-centro">Conheça nossos
                 <span class="titulo--destaque">produtos</span>
             </h2>
@@ -132,7 +144,7 @@
         </section>
 
         <!-- Sessão de Videos da Página -->
-        <section>
+        <section class="container">
             <h2 class="titulo alinhamento-centro">Veja aqui os nossos
                 <span class="titulo--destaque">videos</span>
             </h2>
@@ -168,7 +180,7 @@
             </article>
             <h2 class="titulo--video titulo">Video XYZ</h2>
             <p class="texto">Publicado em março de 2019</p>
-    
+
         </section>
 
     </main>
@@ -197,22 +209,22 @@
                 </a>
             </li>
         </ul>
-        
+
         <address class="rodpe__endereco texto">
             <span class="rodpe__endereco-titulo">Rio de Janeiro</span>
-            
-            Rua Siqueira Campos, 171, 303 
-            <br/> Copacabana <br/> 
+
+            Rua Siqueira Campos, 171, 303
+            <br /> Copacabana <br />
             Telefone: (21) 99876-0099
-            
+
         </address>
         <address class="rodpe__endereco texto">
             <span class="rodpe__endereco-titulo">São Paulo</span>
-            
-            Rua Anita Garibaldi, 33, 13 
-            <br/> Sé <br/>
+
+            Rua Anita Garibaldi, 33, 13
+            <br /> Sé <br />
             Telefone: (11) 99875-2201
-            
+
         </address>
 
     </footer>
