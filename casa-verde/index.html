@@ -14,12 +14,15 @@
     <link rel="stylesheet" href="assets/css/componentes/input.css">
     <link rel="stylesheet" href="assets/css/componentes/cartao.css">
     <link rel="stylesheet" href="assets/css/componentes/produto.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
 
     <link rel="shortcut icon" href="assets/icon/logo-icone.svg" type="image/x-icon">
     <title> Home | Casa Verde</title>
 </head>
 
 <body>
+
+    <!-- Cabeçalho da Página -->
     <header class="container cabecalho">
         <img src="assets/icon/logo.svg" alt="Logo da Casa Verde" class="cabecalho__logo">
         <a href="#" aria-label="Meu carrinho de compras">
@@ -28,6 +31,7 @@
     </header>
 
     <main class="container">
+        <!-- Sessão Inicial da Página -->
         <article>
             <h2 class="titulo alinhamento-esquerda">Sua casa com as
                 <span class="titulo--destaque">melhores plantas</span>
@@ -41,6 +45,8 @@
             <button class="botao">Assinar Newsletter</button>
             
         </article>
+
+        <!--  Crad de Informação da Página -->
         <article class="card">
             <h2 class="titulo alinhamento-centro">Como conseguir
                 <span class="titulo--destaque">minha planta</span>
@@ -62,6 +68,8 @@
             </ul>
 
         </article>
+
+        <!-- Sessão de produtos -->
         <section>
             <h2 class="titulo alinhamento-centro">Conheça nossos
                 <span class="titulo--destaque">produtos</span>
@@ -123,6 +131,7 @@
 
         </section>
 
+        <!-- Sessão de Videos da Página -->
         <section>
             <h2 class="titulo alinhamento-centro">Veja aqui os nossos
                 <span class="titulo--destaque">videos</span>
@@ -162,34 +171,49 @@
     
         </section>
 
-
-
     </main>
-    <footer class="container">
-        <!-- <img src="assets/icon/logo.svg" alt="logo Casa Verde" class=""> -->
 
-        <section>
-            <img src="assets/icon/facebook.svg" alt="link para o Facebook">
-            <img src="assets/icon/twitter.svg" alt="link para o twitter">
-            <img src="assets/icon/instagram.svg" alt="link para o Instagram">
-        </section>
+    <!-- Rodapé da pagina -->
+    <footer class="container rodape">
+        <img src="assets/icon/logo.svg" alt="Logo da Casa Verde" class="rodape__logo">
+
+        <ul class="rodape__lista">
+            <li>
+                <a href="#" class="rodape__lista-midia-social" title="Facebook">
+                    <img src="assets/icon/facebook.svg" alt="link para o Facebook da Casa Verde">
+
+                </a>
+            </li>
+            <li>
+                <a href="#" class="rodape__lista-midia-social" title="Twitter">
+                    <img src="assets/icon/twitter.svg" alt="link para o twitter da Casa Verde">
+
+                </a>
+            </li>
+            <li>
+                <a href="#" class="rodape__lista-midia-social" title="Instagram">
+                    <img src="assets/icon/instagram.svg" alt="link para o Instagram da Casa Verde">
+
+                </a>
+            </li>
+        </ul>
         
-        <article>
-            <h2 class="titulo--video titulo">Rio de Janeiro</h2>
-            <p class="texto">
-                Rua Siqueira Campos, 171, 303 
-                <br/> Copacabana <br/> 
-                Telefone: (21) 99876-0099
-            </p>
-        </article>
-        <article>
-            <h2 class="titulo--video titulo">São Paulo</h2>
-            <p class="texto">
-                Rua Anita Garibaldi, 33, 13 
-                <br/> Sé <br/>
-                Telefone: (11) 99875-2201
-            </p>
-        </article>
+        <address class="rodpe__endereco texto">
+            <span class="rodpe__endereco-titulo">Rio de Janeiro</span>
+            
+            Rua Siqueira Campos, 171, 303 
+            <br/> Copacabana <br/> 
+            Telefone: (21) 99876-0099
+            
+        </address>
+        <address class="rodpe__endereco texto">
+            <span class="rodpe__endereco-titulo">São Paulo</span>
+            
+            Rua Anita Garibaldi, 33, 13 
+            <br/> Sé <br/>
+            Telefone: (11) 99875-2201
+            
+        </address>
 
     </footer>
 </body>

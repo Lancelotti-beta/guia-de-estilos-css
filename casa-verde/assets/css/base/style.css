@@ -24,7 +24,7 @@ body{
 
 .titulo--destaque {
     font-family: var(--titulo-fonte);
-    color: var(--text-color);
+    color: var(--text-color-black);
     font-size: var(--tamanho-titulo-destaque);
     font-weight: var(--titulo-fonte-peso);
 
@@ -48,5 +48,5 @@ body{
 
 .titulo--video {
     font-weight: var(--peso-baixo);
-    color: var(--text-color);
+    color: var(--text-color-black);
 }

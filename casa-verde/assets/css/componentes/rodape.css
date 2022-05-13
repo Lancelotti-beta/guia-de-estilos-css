@@ -1,0 +1,48 @@
+.rodape {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+
+    background-color: var(--branco-cards);
+    background-image: url(../../icon/footer-vector.svg);
+    background-repeat: no-repeat;
+    background-position: top -11rem right;
+}
+
+.rodape__logo {
+    max-width: 11.125rem;
+
+    margin-bottom: 1.25rem;
+
+    opacity: 0.8;
+}
+
+.rodape__lista {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.rodape__lista-midia-social {
+    display: inline-block;
+
+    width: 1.625rem;
+    height: 1.625rem;
+
+    margin-right: 1.625rem;
+}
+
+.rodpe__endereco {
+    margin-bottom: 2rem;
+
+}
+
+.rodpe__endereco-titulo {
+    color: var(--text-color-black);
+    font-weight: var(--titulo-fonte);
+    font-size: var(--tamanho-titulo-destaque);
+
+    display: block;
+
+    margin-bottom: .5rem;
+}
